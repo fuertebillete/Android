@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Campus Virtual ESBAs</string>
+    <string name="app_name">Campus Virtual ESBA</string>
+    <string name="pass">Password</string>
+    <string name="user">Enter Name</string>
+    <string name="login">LOGIN ALUMNO</string>
+
 </resources>
