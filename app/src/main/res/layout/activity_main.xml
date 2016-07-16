@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/title"
         android:textColor="#FFFFFF"
-        android:textSize="35sp"
+        android:textSize="34sp"
 
         />
 
