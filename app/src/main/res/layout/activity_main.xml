@@ -55,14 +55,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/enter"
-            style="?android:attr/buttonBarButtonStyle"
             android:textSize="18sp"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="?android:attr/selectableItemBackground"
             android:text="@string/cancel"
             android:textSize="18sp"
             />
