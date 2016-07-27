@@ -4,6 +4,8 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
 
+    useLibrary 'org.apache.http.legacy'
+    
     defaultConfig {
         applicationId "umlaut.android"
         minSdkVersion 15
@@ -22,5 +24,11 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
+
     compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
 }
