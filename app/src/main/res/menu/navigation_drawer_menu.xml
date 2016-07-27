@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_inicio"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/item_navigation_drawer_perfil"
+            android:icon="@drawable/ic_account_circle_black_36dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/item_navigation_drawer_calendario"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Calendario" />
+        <item
+            android:id="@+id/item_navigation_drawer_consulta"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Consultas" />
+        <item
+            android:id="@+id/item_navigation_drawer_aviso"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Avisos" />
+        <item
+            android:id="@+id/item_navigation_drawer_archivo"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="Archivos" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/item_navigation_drawer_ajustes"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Ajustes" />
+            <item
+                android:id="@+id/item_navigation_drawer_info"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="Información sobre Campus Virtual" />
+
+            <item
+                android:id="@+id/item_navigation_drawer_sesion"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
